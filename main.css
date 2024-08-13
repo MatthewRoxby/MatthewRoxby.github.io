@@ -22,7 +22,7 @@ h1{
 }
 
 .header_box{
-    max-width: fit-content;
+    max-width: 750px;
     margin-inline: auto;
     padding: 20px;
     border-color: #6f1d5c;
