@@ -19,13 +19,15 @@ h1{
     font-size: 100px;
     align-self: center;
     text-align: center;
+    filter: drop-shadow(5px 5px 0px #2e0a30);
 }
 
 .header_box{
     max-width: 750px;
     margin-inline: auto;
-    padding: 20px;
     border-color: #6f1d5c;
     border-style: solid;
     border-width: 4px;
+    position: relative;
+    top: 20px;
 }
