@@ -23,6 +23,11 @@ h1{
     filter: drop-shadow(5px 5px 0px #2e0a30);
 }
 
+h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
 .header_box{
     max-width: 750px;
     margin-inline: auto;
@@ -52,4 +57,39 @@ h1{
     border-width: 4px;
     padding: 10px;
     white-space: inherit;
+}
+
+hr{
+    border: none;
+    border-top: 5px solid #6f1d5c;
+    width: 80%;
+}
+
+button{
+    font-family: 'pixelpro_2pregular';
+    border: none;
+    background-color: #6f1d5c;
+    color: #0d001a;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    20% {transform: rotate(4deg);}
+    25% {transform: rotate(5deg);}
+    30% {transform: rotate(4deg);}
+    70% {transform: rotate(-4deg);}
+    75% {transform: rotate(-5deg);}
+    80% {transform: rotate(-4deg);}
+}
+
+button:hover{
+    font-family: 'pixelpro_2pregular';
+    background-color: #6f1d5c;
+    color: #0d001a;
+    border-radius: 5px;
+    font-size: 25px;
+    animation: shake 0.5s linear;
+    animation-iteration-count: infinite;
 }
