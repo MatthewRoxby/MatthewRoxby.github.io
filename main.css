@@ -109,6 +109,7 @@ img{
 img.trans{
     background-color: #2e0a30;
     max-width: 400px;
+    min-width: 400px;
 }
 
 .bg_cover{
