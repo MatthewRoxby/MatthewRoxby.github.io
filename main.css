@@ -14,6 +14,11 @@ body{
     font-family: 'pixelpro_2pregular';
     font-size: 30px;
     white-space: "pre-line";
+    background-image: url("images/misc/woop.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
 }
 
 h1{
@@ -60,6 +65,9 @@ h2{
 }
 
 hr{
+    position: relative;
+    top : 50px;
+    z-index: 100;
     border: none;
     border-top: 5px solid #6f1d5c;
     width: 80%;
@@ -92,4 +100,22 @@ button:hover{
     font-size: 25px;
     animation: shake 0.5s linear;
     animation-iteration-count: infinite;
+}
+
+img{
+    max-width: 500px;
+}
+
+img.trans{
+    background-color: #2e0a30;
+    max-width: 400px;
+}
+
+.bg_cover{
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    top: 0%;
+    height: 100%;
+    background-color: #0d001a;
 }
